@@ -1,15 +1,22 @@
+/* makes sure to remove built in margins */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
 /* the container that houses all divs within website */
 .webpageContainer {
-    width: 1900px;
+    width: 1200px;
     height:1200px;
     background-color: #ccc;
 
 }
 
     .headerContainer {
-        width: 1860px;
+        width: 1160px;
         height:250px;
-        background-color: gray;
+        background-color: white;
         display: flex;
         justify-content: space-around;
         padding: 20px;
@@ -18,57 +25,91 @@
 
         /* top stories that go into the header container */
         .topStory1 {
-            width: 400px;
-            height:250px;
-            background-color: blue;
-            color: white;
-            display: flex;
-
+            width: 300px;
+            height:230px;
+            color: #c70639;
+            border-top: 20px solid goldenrod;
         }
             .topStoryDetail1 {
                 padding: 10px;
                 text-align: right;
+                font-weight: bold;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
             }
-        .topStory2 {
-            width: 400px;
-            height:250px;
-            background-color: blueviolet;
-            color: white;
-        }
-            .topStoryDetail2 {
-                padding: 10px;
-                text-align: right;
-            }
-        .topStory3 {
-            width: 400px;
-            height:250px;
-            background-color: lightgreen;
-            color: white;
-        }
-            .topStoryDetail3 {
-                padding: 10px;
-                text-align: right;
-            }
-        .topStory4 {
-            width: 400px;
-            height:250px;
-            background-color: lightblue;
-            color: white;
-            display: flex;
-        }
-            .topStoryDetail4 {
-                padding: 10px;
-                text-align: right;
-            }
-            .npcArticle {
-                width: 380px;
-                height:110px;
+            .aabArticle {
+                width: 270px;
+                height:135px;
+                outline: 2px solid #c70639;
 
             }
+         .topStory2 {
+            width: 300px;
+            height:230px;
+            color: #c70639;               
+            border-top: 20px solid goldenrod;
+
+            }
+                .topStoryDetail2 {
+                    padding: 10px;
+                    text-align: right;
+                    font-weight: bold;
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    border-left: 2px solid gray;
+                }
+                .dmvArticle {
+                    width: 270px;
+                    height:135px;
+                    outline: 2px solid #c70639;
+                    
+    
+                }
+        .topStory3 {
+            width: 300px;
+            height:230px;
+
+            color: #c70639;
+            border-top: 20px solid goldenrod;
+            }
+                .topStoryDetail3 {
+                    padding: 10px;
+                    text-align: right;
+                    font-weight: bold;
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    border-left: 2px solid gray;
+                }
+                .ceoArticle {
+                    width: 270px;
+                    height:135px;
+                    outline: 2px solid #c70639;
+    
+                }
+            .topStory4 {
+                width: 300px;
+                height:230px;
+
+                color: #c70639;
+                border-top: 20px solid goldenrod;
+            }
+                .topStoryDetail4 {
+                    padding: 10px;
+                    text-align: right;
+                    font-weight: bold;
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    border-left: 2px solid gray;
+                }
+                .npcArticle {
+                    width: 270px;
+                    height:135px;        
+                    outline: 2px solid #c70639;            
+                }
     
     /* 2nd logo area */
     .header2Container {
-        width: 1900px;
+        width: 1200px;
         height:80px;
         background-image: linear-gradient(to right, rgb(250, 250, 49), rgb(152, 152, 75));
         display: flex;
@@ -82,16 +123,16 @@
                 height:80px;
             }
         .search {
-                width: 1900px;
+                width: 1200px;
                 height:150px;
 
         }
             #searchBar {
-                width: 500px;
-                height: 40px;
+                width: 300px;
+                height: 30px;
                 font-size: 15px;
                 margin-top: 20px;
-                margin-left: 150px;
+                margin-left: 100px;
             }
             #searchButton {
                 width: 60px;
@@ -102,12 +143,21 @@
 
     /* kotickoo team list and links section*/
     .sideBarContainer {
+        width: 200px;
+        height: 1200px;
+        background-image: linear-gradient(to left, rgb(250, 250, 49), rgb(152, 152, 75));
+        border-right: 2px solid orange;
+        border-left: 8px solid black;
+        padding: 5px;
 
     }
-        .datestamp{
-
+        .dateStamp{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
         }
         .kotickooTeamList {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
 
         }
     
@@ -124,3 +174,5 @@
         .mainArticle3 {
 
         }
+
+
