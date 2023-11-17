@@ -1,0 +1,126 @@
+/* the container that houses all divs within website */
+.webpageContainer {
+    width: 1900px;
+    height:1200px;
+    background-color: #ccc;
+
+}
+
+    .headerContainer {
+        width: 1860px;
+        height:250px;
+        background-color: gray;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+
+    }
+
+        /* top stories that go into the header container */
+        .topStory1 {
+            width: 400px;
+            height:250px;
+            background-color: blue;
+            color: white;
+            display: flex;
+
+        }
+            .topStoryDetail1 {
+                padding: 10px;
+                text-align: right;
+            }
+        .topStory2 {
+            width: 400px;
+            height:250px;
+            background-color: blueviolet;
+            color: white;
+        }
+            .topStoryDetail2 {
+                padding: 10px;
+                text-align: right;
+            }
+        .topStory3 {
+            width: 400px;
+            height:250px;
+            background-color: lightgreen;
+            color: white;
+        }
+            .topStoryDetail3 {
+                padding: 10px;
+                text-align: right;
+            }
+        .topStory4 {
+            width: 400px;
+            height:250px;
+            background-color: lightblue;
+            color: white;
+            display: flex;
+        }
+            .topStoryDetail4 {
+                padding: 10px;
+                text-align: right;
+            }
+            .npcArticle {
+                width: 380px;
+                height:110px;
+
+            }
+    
+    /* 2nd logo area */
+    .header2Container {
+        width: 1900px;
+        height:80px;
+        background-image: linear-gradient(to right, rgb(250, 250, 49), rgb(152, 152, 75));
+        display: flex;
+
+    }
+        .logo {
+            
+        }
+            .kotickooLogo {
+                width: 600px;
+                height:80px;
+            }
+        .search {
+                width: 1900px;
+                height:150px;
+
+        }
+            #searchBar {
+                width: 500px;
+                height: 40px;
+                font-size: 15px;
+                margin-top: 20px;
+                margin-left: 150px;
+            }
+            #searchButton {
+                width: 60px;
+                height: 30px;
+                background-color: #ff0066;
+                color: white;
+            }
+
+    /* kotickoo team list and links section*/
+    .sideBarContainer {
+
+    }
+        .datestamp{
+
+        }
+        .kotickooTeamList {
+
+        }
+    
+    /* main article selection */
+    .articleSelectionContainer{
+
+    }
+        .mainArticle1 {
+
+        }
+        .mainArticle2 {
+
+        }
+        .mainArticle3 {
+
+        }
