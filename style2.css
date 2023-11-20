@@ -182,7 +182,7 @@ html {
     }
         .mainArticle1 {
             width: 960px;
-            height: 300px;
+            height: 1010px;
             margin: 20px;
             background-color: #ecebeb;
             display: flex;
@@ -225,96 +225,6 @@ html {
 
             }
 
-            .mainArticle2 {
-                width: 960px;
-                height: 300px;
-                margin: 20px;
-                background-color: #ecebeb;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                border-top: 5px solid goldenrod;
-            }
-                .mainArticleTitle2 {
-                    padding: 10px;
-                    margin-left: 10px;
-                    text-align: left;
-                    font-weight: bold;
-                    font-size: 25px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-style: italic;
-                    color: #c70639
-    
-                }
-                .mainArticleImage2{
-                    display: flex;
-                    flex-direction: row;
-    
-                }
-                    .cyberArticle {
-                        width: 200px;
-                        height: 200px;
-                        padding: 10px;
-                        
-    
-                    }
-                .mainArticleDetail2 {
-                    padding-top: 10px;
-                    text-align: left;
-                    color: rgb(53, 53, 53);
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-size: 20px;
-                    
-    
-                }
-                .mainArticleCredit2 {
-    
-                }
-
-                .mainArticle3 {
-                    width: 960px;
-                    height: 300px;
-                    margin: 20px;
-                    background-color: #ecebeb;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    border-top: 5px solid goldenrod;
-                }
-                    .mainArticleTitle3 {
-                        padding: 10px;
-                        margin-left: 10px;
-                        text-align: left;
-                        font-weight: bold;
-                        font-size: 25px;
-                        font-family: Arial, Helvetica, sans-serif;
-                        font-style: italic;
-                        color: #c70639
-        
-                    }
-                    .mainArticleImage3{
-                        display: flex;
-                        flex-direction: row;
-        
-                    }
-                        .cyberArticle {
-                            width: 200px;
-                            height: 200px;
-                            padding: 10px;
-        
-                        }
-                    .mainArticleDetail3 {
-                        padding-top: 10px;
-                        text-align: left;
-                        color: rgb(53, 53, 53);
-                        font-family: Arial, Helvetica, sans-serif;
-                        font-size: 20px;
-                        
-        
-                    }
-                    .mainArticleCredit3 {
-        
-                    }
             
             
 
